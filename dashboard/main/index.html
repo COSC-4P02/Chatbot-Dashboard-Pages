@@ -479,7 +479,7 @@
 
   
 
-  var api_url = "http://localhost:3000/";
+  var api_url = "https://api.chatbot-ai.ga/";
   let stats_api = api_url + "stats/query?q=";
   let stats_array_api = api_url + "stats_array/query?q=";
 
@@ -537,7 +537,6 @@
   // insertAfter(div, createCardElement("abc",httpGet(stats_api + "abc"),"abc"));
   // insertAfter(div, createCardElement("abc",httpGet(stats_api + "abc"),"abc"));
 
-  
   insertAfter(div, createCardElement("404",httpGet(stats_api + "api/404"),"Might be Spider / DOS",'bg-error'));
   insertAfter(div, createCardElement("News Search Api",httpGet(stats_api + "api/crawler/brockNews/search"),"News"));
   insertAfter(div, createCardElement("News Api",httpGet(stats_api + "api/crawler/brockNews"),"News"));
