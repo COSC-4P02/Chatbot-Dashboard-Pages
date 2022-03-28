@@ -539,7 +539,7 @@
 
   insertAfter(div, createCardElement("404",httpGet(stats_api + "api/404"),"Might be Spider / DOS",'bg-error'));
   insertAfter(div, createCardElement("News Search Api",httpGet(stats_api + "api/crawler/brockNews/search"),"News"));
-  insertAfter(div, createCardElement("News Api",httpGet(stats_api + "api/crawler/brockNews"),"News"));
+  insertAfter(div, createCardElement("News Api",httpGet(stats_api + "api/crawler/brockNews/rss"),"News"));
   insertAfter(div, createCardElement("ChatLog Download",httpGet(stats_api + "api/chat/pdf"),"Count"));
   
   insertAfter(div, createCardElement("Server Restart",httpGet(stats_api + "core/server/start"),"PM2"));
