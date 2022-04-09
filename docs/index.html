@@ -68,23 +68,20 @@
               </a>
   
               <ul class="dropdown__menu js-dropdown__menu" aria-label="dropdown">
-                <li>
-                  <a class="dropdown__item" href="https://web.chatbot-ai.ga" target="_blank">Web</a>
-                </li>
 
                 <li>
-                  <a class="dropdown__item" href="https://discord.gg/kSDPxkVh5T" target="_blank">Discord</a>
-                </li>
-
-                <li>
-                  <a class="dropdown__item" href="https://discord.com/api/oauth2/authorize?client_id=957973848144375868&permissions=8&scope=bot" target="_blank">Discord Bot</a>
+                  <a class="dropdown__item" href="https://chatbot-ai.ga" target="_blank">Home</a>
                 </li>
   
                 <hr class="dropdown__separator" role="separator">
   
                 <li>
-                  <a class="dropdown__item" href="https://web.chatbot-ai.ga">Log Out</a>
+                  <a class="dropdown__item" href="https://web.chatbot-ai.ga?bot=brock" target="_blank">Brock Chatbot</a>
                 </li>
+                <li>
+                  <a class="dropdown__item" href="https://web.chatbot-ai.ga?bot=game" target="_blank">Game Chatbot</a>
+                </li>
+
               </ul>
             </div>
           </div>
@@ -538,9 +535,7 @@
   
   var div = document.getElementById("krunk-first-card");
 
-  // insertAfter(div, createCardElement("abc",httpGet(stats_api + "abc"),"abc"));
-  // insertAfter(div, createCardElement("abc",httpGet(stats_api + "abc"),"abc"));
-  // insertAfter(div, createCardElement("abc",httpGet(stats_api + "abc"),"abc"));
+  // Card insert here
 
   insertAfter(div, createCardElement("Discord",httpGet(stats_api + "discord/msg"),"Total Questions"));
   insertAfter(div, createCardElement("404",httpGet(stats_api + "api/404"),"Might be Spider / DOS",'bg-error'));
