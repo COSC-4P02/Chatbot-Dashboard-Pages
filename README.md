@@ -1,4 +1,4 @@
-# Chatbot-Ai Dashboard Page
+# Chatbot-Ai Dashboard Pages
 
 [Try it now](https://dash.chatbot-ai.ga)
 
