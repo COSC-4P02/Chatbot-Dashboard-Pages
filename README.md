@@ -1,6 +1,6 @@
 # Chatbot-Ai Dashboard Pages
 
-[Try it now](https://dash.chatbot-ai.ga)
+[Try it now](https://dash.chatbot-ai.gq)
 
 ## Add Status Card
 
